@@ -215,6 +215,86 @@ public abstract class BaseVertabeloDatabase implements Database {
 		return database.getIncludeExcludeColumns();
 	}
 
+	@Override
+	public final boolean getIncludeTables() {
+		return database.getIncludeTables();
+	}
+
+	@Override
+	public final void setIncludeTables(boolean includeTables) {
+		database.setIncludeTables(includeTables);
+	}
+
+	@Override
+	public final boolean getIncludeRoutines() {
+		return database.getIncludeRoutines();
+	}
+
+	@Override
+	public final void setIncludeRoutines(boolean includeRoutines) {
+		database.setIncludeRoutines(includeRoutines);
+	}
+
+	@Override
+	public final boolean getIncludePackages() {
+		return database.getIncludePackages();
+	}
+
+	@Override
+	public final void setIncludePackages(boolean includePackages) {
+		database.setIncludePackages(includePackages);
+	}
+
+	@Override
+	public final boolean getIncludeUDTs() {
+		return database.getIncludeUDTs();
+	}
+
+	@Override
+	public final void setIncludeUDTs(boolean includeUDTs) {
+		database.setIncludeUDTs(includeUDTs);
+	}
+
+	@Override
+	public final boolean getIncludeSequences() {
+		return database.getIncludeSequences();
+	}
+
+	@Override
+	public final void setIncludeSequences(boolean includeSequences) {
+		database.setIncludeSequences(includeSequences);
+	}
+
+	@Override
+	public final boolean getIncludePrimaryKeys() {
+		return database.getIncludePrimaryKeys();
+	}
+
+	@Override
+	public final void setIncludePrimaryKeys(boolean includePrimaryKeys) {
+		database.setIncludePrimaryKeys(includePrimaryKeys);
+	}
+
+	@Override
+	public final boolean getIncludeUniqueKeys() {
+		return database.getIncludeUniqueKeys();
+	}
+
+	@Override
+	public final void setIncludeUniqueKeys(boolean includeUniqueKeys) {
+		database.setIncludeUniqueKeys(includeUniqueKeys);
+	}
+
+	@Override
+	public final boolean getIncludeForeignKeys() {
+		return database.getIncludeForeignKeys();
+	}
+
+	@Override
+	public final void setIncludeForeignKeys(boolean includeForeignKeys) {
+		database.setIncludeForeignKeys(includeForeignKeys);
+	}
+
 	public final void setRegexFlags(List<RegexFlag> regexFlags) {
 		database.setRegexFlags(regexFlags);
 	}
