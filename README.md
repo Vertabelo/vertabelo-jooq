@@ -1,8 +1,2 @@
-Vertabelo Plugin for jOOQ
-
-
-TODO add install guide 
-TODO and usage guide
-TODO add migration guide
-
-
+# Project moved
+Project repository has been moved here 👉 [vertabelo-jooq](https://github.com/vertabelo-modeler/vertabelo-jooq)
